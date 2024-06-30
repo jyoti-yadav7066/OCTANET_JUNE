@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+nav > .navbar{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+nav > .right-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .right-icon-container > a{
+    margin-right: 20px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav > .right-icon-container > a:last-child{
+    margin-right: 50px;
+}
+
+nav > .right-icon-container > a:hover{
+    color: black;
+}
+
+nav > .right-icon-container > input[type=text]{
+    float: right;
+    padding: 6px;
+    
+}
